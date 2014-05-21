@@ -1,7 +1,10 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main(){
-	cout << 5/2 <<endl;
+	string nums[] = {"one", "two", "three"};
+	string *p = &nums[1];
+	cout << *p << endl;
 	return 0;
 }
