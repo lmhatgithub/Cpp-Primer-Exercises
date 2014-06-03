@@ -5,6 +5,7 @@ int main(){
 	int a, b, q, r=-1, it = 0;
 	cout << "Enter 2 large integers:" << endl;
 	cin >> a >> b;
+	
 	if(a<b){
 		int temp = b;
 		b = a;
